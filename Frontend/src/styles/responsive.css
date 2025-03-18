@@ -1,0 +1,40 @@
+/* responsive.css */
+
+
+/* Mobile Devices (up to 768px) */
+
+@media (max-width: 768px) {
+    .container {
+        padding: 10px;
+    }
+    h1 {
+        font-size: 22px;
+    }
+    button {
+        width: 100%;
+        padding: 12px;
+    }
+}
+
+
+/* Tablets (769px - 1024px) */
+
+@media (max-width: 1024px) {
+    .sidebar {
+        width: 100%;
+        position: relative;
+    }
+    .dashboard {
+        flex-direction: column;
+    }
+}
+
+
+/* Large Screens */
+
+@media (min-width: 1025px) {
+    .dashboard {
+        display: flex;
+        gap: 20px;
+    }
+}

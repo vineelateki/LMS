@@ -1,0 +1,129 @@
+/* Home Page Container */
+
+.home-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background: linear-gradient(to right, #2c3e50, #4ca1af);
+    color: black;
+    /* Title color changed to black */
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    position: relative;
+    overflow: hidden;
+    /* Prevents overflow issues */
+}
+
+
+/* Background Logo */
+
+.home-container::before {
+    content: "";
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 80vw;
+    /* Adjusting width to make sure it's 80% of the viewport */
+    height: 80vh;
+    background: url('../assets/logo.png') no-repeat center center;
+    background-size: contain;
+    /* Ensures the full image is visible */
+    opacity: 0.2;
+    /* Logo opacity */
+    z-index: -1;
+    /* Sends it behind all content */
+}
+
+
+/* LMS Title */
+
+.home-container h1 {
+    font-size: 36px;
+    margin-bottom: 10px;
+    letter-spacing: 1px;
+    position: relative;
+    z-index: 1;
+    /* Ensures title is above background */
+}
+
+
+/* Authentication Switch (Login & Register Buttons) */
+
+.auth-switch {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin-bottom: 20px;
+}
+
+.auth-switch button {
+    background: rgba(255, 255, 255, 0.2);
+    border: none;
+    color: white;
+    font-size: 16px;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background 0.3s ease-in-out;
+}
+
+.auth-switch button:hover {
+    background: rgba(255, 255, 255, 0.4);
+}
+
+
+/* Auth Container (Login/Register Form) */
+
+.auth-container {
+    background: rgba(255, 255, 255, 0.1);
+    padding: 25px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+    width: 320px;
+    text-align: center;
+    position: relative;
+    z-index: 1;
+    /* Ensures form is above the background */
+}
+
+.auth-container h2 {
+    margin-bottom: 15px;
+    font-size: 22px;
+}
+
+.auth-container input {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    background: rgba(255, 255, 255, 0.8);
+}
+
+.auth-container button {
+    background-color: #27ae60;
+    color: white;
+    border: none;
+    padding: 10px;
+    width: 100%;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background 0.3s ease-in-out;
+}
+
+.auth-container button:hover {
+    background-color: #219150;
+}
+
+
+/* Message Display (Success/Error) */
+
+.auth-container p {
+    margin-top: 10px;
+    font-size: 14px;
+    color: #f1c40f;
+}

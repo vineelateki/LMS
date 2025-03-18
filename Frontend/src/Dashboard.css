@@ -1,0 +1,33 @@
+.dashboard-container {
+    text-align: center;
+    padding: 20px;
+}
+
+.dashboard-section {
+    background: #f4f4f4;
+    padding: 20px;
+    margin: 15px auto;
+    width: 60%;
+    border-radius: 8px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.dashboard-section h3 {
+    margin-bottom: 10px;
+    font-size: 20px;
+    color: #333;
+}
+
+.dashboard-button {
+    padding: 10px 15px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+.dashboard-button:hover {
+    background-color: #0056b3;
+}
