@@ -1,0 +1,121 @@
+.card {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    overflow-x: hidden;
+  }
+
+  .card-body {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 100px;
+  }
+
+  .card-title {
+    .card {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+        text-align: center;
+        height: 100%;
+        border-radius: 10px;
+        overflow: hidden;
+        box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+      }
+
+      .card-body {
+        width: 100%;
+        padding: 10px;
+      }
+
+      .card-title {
+        font-size: 1.2rem;
+        font-weight: bold;
+        margin-bottom: 5px;
+      }
+
+      .card-text {
+        font-size: 0.9rem;
+        margin-bottom: 5px;
+      }
+
+      .card img {
+        width: 100%;
+        height: 150px;
+        object-fit: contain;
+        margin: 0;
+        padding: 0;
+      }
+
+      .card-body .btn {
+        width: 100%;
+        margin-top: 5px;
+      }
+
+      .btn-primary {
+        background-color: #007bff;
+        border: none;
+      }
+
+      .btn-success {
+        background-color: #28a745;
+        border: none;
+      }
+
+      .btn:hover {
+        opacity: 0.8;
+      }
+
+    font-weight: bold;
+    margin-bottom: 5px;
+    padding-bottom: 70px;
+  }
+
+  .card-text {
+    font-size: 0.9rem;
+    margin-bottom: 5px;
+  }
+
+  .card img {
+    width: 100%;
+    height: 400px;
+    object-fit: cover;
+
+  }
+
+  .card-body .btn {
+    width: 100%;
+    margin-top: 5px;
+  }
+
+  .btn-primary {
+    background-color: #007bff;
+    border: none;
+  }
+
+  .btn-success {
+    background-color: #28a745;
+    border: none;
+  }
+
+  .btn:hover {
+    opacity: 0.8;
+  }
+  .container{
+    padding-top: 100px;
+
+
+  }
+  .go-back-btn {
+    padding: 8px 15px;
+    font-size: 16px;
+    border-radius: 5px;
+    font-weight: bold;
+  }
