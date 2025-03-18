@@ -1,0 +1,59 @@
+.add-lesson-container {
+    max-width: 600px;
+    margin: auto;
+    padding: 20px;
+    text-align: center;
+    padding-top: 200px;
+}
+
+.add-lesson-title {
+    font-size: 24px;
+    margin-bottom: 15px;
+}
+
+.add-lesson-form {
+    display: flex;
+    flex-direction: column;
+}
+
+.lesson-input,
+.lesson-textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.lesson-textarea {
+    height: 100px;
+}
+
+.lesson-submit-button {
+    background: #007bff;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.lesson-submit-button:hover {
+    background: #0056b3;
+}
+
+.go-back-button {
+    margin-top: 15px;
+    padding: 10px 15px;
+    background-color: #ff4d4d;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: 0.3s ease;
+}
+
+.go-back-button:hover {
+    background-color: #cc0000;
+}

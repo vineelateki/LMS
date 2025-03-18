@@ -1,0 +1,42 @@
+.lesson-detail-container {
+    max-width: 600px;
+    margin: auto;
+    padding: 20px;
+    text-align: center;
+}
+
+.lesson-detail-title {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.lesson-detail-content {
+    font-size: 18px;
+    line-height: 1.6;
+}
+
+.error-message {
+    color: red;
+    font-size: 20px;
+    text-align: center;
+}
+
+.go-back-button {
+    margin-top: 15px;
+    padding: 10px 15px;
+    background-color: #ff4d4d;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: 0.3s ease;
+}
+
+.go-back-button:hover {
+    background-color: #cc0000;
+}
+
+.detail {
+    padding-top: 100px;
+}

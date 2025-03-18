@@ -1,0 +1,49 @@
+.lesson-list-container {
+    max-width: 600px;
+    margin: auto;
+    text-align: center;
+}
+
+.lesson-title {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.lesson-list {
+    list-style: none;
+    padding: 0;
+}
+
+.lesson-item {
+    margin: 10px 0;
+}
+
+.lesson-link {
+    text-decoration: none;
+    font-size: 18px;
+    color: #007bff;
+}
+
+.lesson-link:hover {
+    text-decoration: underline;
+}
+
+.add-lesson-button {
+    display: inline-block;
+    margin-top: 15px;
+    padding: 10px 20px;
+    background: #28a745;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.add-lesson-button:hover {
+    background: #218838;
+}
+
+.body-5 {
+    padding-top: 200px;
+    background-color: antiquewhite;
+    height: 100vh;
+}
